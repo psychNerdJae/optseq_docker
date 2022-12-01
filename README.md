@@ -87,7 +87,7 @@ The flag `--o` ensures that all `o`utput files start with this prefix.
 
 The flags `--tnullmin` and `--tnullmax` specify the `min`imum and `max`imum `t`ime that the study presents a `null` "event". In many studies, this is the fixation cross displayed between "real" stimuli.
 
-Finally, the flags `--nkeep` and `--nsearch` specify how many event schedules to search over, and of the generated schedules, how many to keep. Remember that you will ultimately want to generate a minimum of `nkeep = n_runs_per_participant * n_participants`.
+Finally, the flags `--nkeep` and `--nsearch` specify how many event schedules to search over, and of the generated schedules, how many to keep.
 
 ```bash
 ./optseq2 --ntp 150 --tr 2 --psdwin 0 16 2 \
